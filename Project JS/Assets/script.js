@@ -25,3 +25,7 @@ document.addEventListener('mouseleave', () => {
   cursor.style.transform = 'translate(-9999px, -9999px)';
 });
 
+const noCursor =document.querySelector('.honors');
+document.addEventListener('mouseenter', () => {
+  noCursor.style.transform = 'translate(-50%, -50%)';
+});
